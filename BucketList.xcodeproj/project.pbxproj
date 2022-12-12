@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		012D92FD294666D000B4E43B /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D92FC294666D000B4E43B /* BucketListApp.swift */; };
-		012D92FF294666D000B4E43B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D92FE294666D000B4E43B /* ContentView.swift */; };
 		012D9301294666D200B4E43B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012D9300294666D200B4E43B /* Assets.xcassets */; };
 		012D9304294666D200B4E43B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 012D9303294666D200B4E43B /* Preview Assets.xcassets */; };
+		012D930B2946671900B4E43B /* BucketListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D930A2946671900B4E43B /* BucketListView.swift */; };
+		012D930D29466CF400B4E43B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D930C29466CF400B4E43B /* Item.swift */; };
+		012D930F29466E7700B4E43B /* ItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D930E29466E7700B4E43B /* ItemsViewModel.swift */; };
+		012D9313294698E400B4E43B /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D9312294698E400B4E43B /* Category.swift */; };
+		012D93172946B39900B4E43B /* ItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D93162946B39900B4E43B /* ItemManager.swift */; };
+		012D93192946BE1C00B4E43B /* AddNewItemSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012D93182946BE1C00B4E43B /* AddNewItemSheetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		012D92F9294666D000B4E43B /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		012D92FC294666D000B4E43B /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
-		012D92FE294666D000B4E43B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		012D9300294666D200B4E43B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		012D9303294666D200B4E43B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		012D930A2946671900B4E43B /* BucketListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListView.swift; sourceTree = "<group>"; };
+		012D930C29466CF400B4E43B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		012D930E29466E7700B4E43B /* ItemsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewModel.swift; sourceTree = "<group>"; };
+		012D9312294698E400B4E43B /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		012D93162946B39900B4E43B /* ItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemManager.swift; sourceTree = "<group>"; };
+		012D93182946BE1C00B4E43B /* AddNewItemSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItemSheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				012D92FC294666D000B4E43B /* BucketListApp.swift */,
-				012D92FE294666D000B4E43B /* ContentView.swift */,
+				012D930E29466E7700B4E43B /* ItemsViewModel.swift */,
 				012D9300294666D200B4E43B /* Assets.xcassets */,
 				012D9302294666D200B4E43B /* Preview Content */,
+				012D930A2946671900B4E43B /* BucketListView.swift */,
+				012D930C29466CF400B4E43B /* Item.swift */,
+				012D9312294698E400B4E43B /* Category.swift */,
+				012D93162946B39900B4E43B /* ItemManager.swift */,
+				012D93182946BE1C00B4E43B /* AddNewItemSheetView.swift */,
 			);
 			path = BucketList;
 			sourceTree = "<group>";
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				012D92FF294666D000B4E43B /* ContentView.swift in Sources */,
+				012D930B2946671900B4E43B /* BucketListView.swift in Sources */,
+				012D93192946BE1C00B4E43B /* AddNewItemSheetView.swift in Sources */,
+				012D9313294698E400B4E43B /* Category.swift in Sources */,
+				012D930F29466E7700B4E43B /* ItemsViewModel.swift in Sources */,
+				012D930D29466CF400B4E43B /* Item.swift in Sources */,
+				012D93172946B39900B4E43B /* ItemManager.swift in Sources */,
 				012D92FD294666D000B4E43B /* BucketListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
